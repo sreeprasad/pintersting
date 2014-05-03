@@ -2,6 +2,5 @@
 # this is pin interesting 
 
 by 
-[* sreeprasad *]( www.linkedin.com/in/sreeprasadatrit)
-
+[sreeprasad](www.linkedin.com/in/sreeprasadatrit).
 
