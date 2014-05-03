@@ -2,5 +2,5 @@
 # this is pin interesting 
 
 by 
-[sreeprasad](www.linkedin.com/in/sreeprasadatrit).
+[sreeprasad](http://www.linkedin.com/in/sreeprasadatrit).
 
