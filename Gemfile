@@ -24,6 +24,7 @@ gem 'bootstrap-sass'
 
 # for login page
 gem 'devise', '~> 3.2.4'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 
 group :development, :test do
