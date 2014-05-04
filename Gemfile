@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # uncomment this if you need to specify version
-#ruby 2.1.1p76
+# ruby 2.1.1p76
 
 gem 'rails', '4.1.0'
 
