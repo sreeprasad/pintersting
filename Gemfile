@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# uncomment this if you need to specify version
+#ruby 2.1.1p76
 
 gem 'rails', '4.1.0'
 
@@ -19,6 +21,10 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'bootstrap-sass'
+
+# for login page
+gem 'devise', '~> 3.2.4'
+
 
 group :development, :test do
 	gem 'sqlite3'
