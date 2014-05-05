@@ -22,6 +22,7 @@ module Pintresting
 
     # required for herorku if you are deploying on Heroku with Rails 3.2 only
     config.assets.initialize_on_precompile = false
+    config.serve_static_assets = true
 
   end
 end
