@@ -7,18 +7,21 @@
         <div class='panel-body'>
           <%= pin.description %><br/>
           <p><strong><%= pin.user.name if pin.user %> </strong></p>
-          <% if pin.user == current_user %>
-          <div class="actions">
-            
-            <%= link_to edit_pin_path(pin) do %>
-              <span class="glyphicon glyphicon-edit"></span>Edit
-            <% end %>
+          
+          <% if current_user && (pin.user == current_user) %>
+            <div class="actions">            
+                
+                <%= link_to edit_pin_path(pin) do %>
+                  <span class="glyphicon glyphicon-edit"></span>Edit
+                <% end %>
 
-            <%= link_to pin, method: :delete, data: { confirm: 'Are you sure?' } do %>
-              <span class="glyphicon glyphicon-trash"></span> Delete
-            <% end %>
-            </div>
+                <%= link_to pin, method: :delete, data: { confirm: 'Are you sure?' } do %>
+                  <span class="glyphicon glyphicon-trash"></span> Delete
+                <% end %>
+
+              </div>
           <% end %>
+
        </div>              
     </div>       
   <% end %>  
