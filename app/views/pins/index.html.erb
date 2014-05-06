@@ -5,8 +5,8 @@
     <div class="box panel pabel-default">
         <%= link_to image_tag(pin.image.url(:medium)), pin_path(pin) %>
         <div class='panel-body'>
-          <%= pin.description %>
-          <%= pin.user.email if pin.user %> <br/>
+          <%= pin.description %><br/>
+          <p><strong><%= pin.user.name if pin.user %> </strong></p>
           <% if pin.user == current_user %>
           <div class="actions">
             
